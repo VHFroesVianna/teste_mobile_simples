@@ -12,28 +12,6 @@ Este projeto é uma aplicação móvel simples desenvolvida em Dart com Flutter.
 - *Integração com banco de dados local*: Uso de um serviço de banco de dados para armazenar informações localmente.
 - *Testes unitários e de integração*: Testes automatizados para garantir a qualidade e funcionamento correto do código.
 
-## Estrutura do Projeto
-
-```plaintext
-.
-├── lib
-│   ├── api
-│   │   └── service
-│   │       └── api_service.dart
-│   ├── database
-│   │   └── service
-│   │       └── database_service.dart
-│   ├── lead
-│   │   └── models
-│   │       └── lead.dart
-│   ├── main.dart
-├── test
-│   ├── api_service_test.dart
-│   ├── mocks.dart
-│   ├── mocks.mocks.dart
-├── pubspec.yaml
-└── README.md
-```
 # Telas:
 ![t1](https://github.com/VHFroesVianna/teste_mobile_simples/assets/110950858/caf51f30-1334-4cca-9752-50cd948d535c)
 
