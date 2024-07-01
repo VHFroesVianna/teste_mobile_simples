@@ -1,16 +1,39 @@
-# teste_mobile_simples
+# Teste Mobile Simples
 
-A new Flutter project.
+## Descrição
 
-## Getting Started
+Este projeto é uma aplicação móvel simples desenvolvida em Dart com Flutter. O objetivo é demonstrar a estrutura básica de uma aplicação mobile, incluindo operações com banco de dados, requisições HTTP e testes automatizados. Este projeto foi desenvolvido para servir como exemplo e ponto de partida para aplicações mais complexas.
 
-This project is a starting point for a Flutter application.
+## Funcionalidades
 
-A few resources to get you started if this is your first Flutter project:
+- *Cadastro e autenticação de usuários*: Permite a criação e autenticação de contas de usuário.
+- *Cadastro de veículos*: Funcionalidade para cadastrar veículos com detalhes como modelo, ano, combustível, etc.
+- *Envio de leads de veículos para uma API externa*: Integração com uma API para envio de leads de veículos.
+- *Integração com banco de dados local*: Uso de um serviço de banco de dados para armazenar informações localmente.
+- *Testes unitários e de integração*: Testes automatizados para garantir a qualidade e funcionamento correto do código.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Estrutura do Projeto
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```plaintext
+.
+├── lib
+│   ├── api
+│   │   └── service
+│   │       └── api_service.dart
+│   ├── database
+│   │   └── service
+│   │       └── database_service.dart
+│   ├── lead
+│   │   └── models
+│   │       └── lead.dart
+│   ├── main.dart
+├── test
+│   ├── api_service_test.dart
+│   ├── mocks.dart
+│   ├── mocks.mocks.dart
+├── pubspec.yaml
+└── README.md
+```
+# Telas:
+![t1](https://github.com/VHFroesVianna/teste_mobile_simples/assets/110950858/caf51f30-1334-4cca-9752-50cd948d535c)
+
