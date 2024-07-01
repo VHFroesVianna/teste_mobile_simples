@@ -4,7 +4,7 @@ import '../../lead/models/lead.dart';
 import 'package:http/http.dart' as http;
 
 class ApiService {
-  static Future<void> postLeads() async {
+  Future<void> postLeads() async {
     final dbService = DatabaseService();
     final leads = await dbService.getLeads();
 

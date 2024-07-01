@@ -47,6 +47,7 @@ dependencies:
   flutter_secure_storage: ^4.2.1
   workmanager: ^0.5.2
   cron: ^0.6.1
+  mockito: ^5.4.4
 
 dev_dependencies:
   flutter_test:

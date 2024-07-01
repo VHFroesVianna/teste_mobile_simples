@@ -73,7 +73,7 @@ class CarroGridItem extends ConsumerWidget {
                 final user = await UserStorage.getUser();
                 if (user != null) {
                   await db.insertLead(user.id, carro.id);
-                  await ApiService.postLeads();
+                  await ApiService().postLeads();
                   ScaffoldMessenger.of(context).showSnackBar(
                     const SnackBar(content: Text('Lead salva com sucesso!')),
                   );
